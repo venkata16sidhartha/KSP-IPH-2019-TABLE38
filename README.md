@@ -6,7 +6,7 @@ We had attempted to digitalize the Beat Management System of the Indian Police F
 
 The tools we've used are:
 For the development of the web app:
-Python (Flask) for the backend
+Python (Flask) for the backend and
 HTML/CSS/JS for the frontend
 
 
