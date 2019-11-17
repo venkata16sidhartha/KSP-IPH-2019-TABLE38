@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p align="center">
+<form name="jump" class="center">
+<select name="menu" onchange="gotoPage(this)">
+<option value="#">Select an option</option>
+<option value="https://www.google.com">Link 1</option>
+<option value="https://www.gmail.com">Link 2</option>
+<option value="https://www.facebook.com ">Link 3</option>
+</select>
+<input type="button" onClick="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="GO">
+</form>
+</p>
+
+<script type="text/javascript">
+function gotoPage(select){
+    window.location = select.value;
+}
+</script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <select id="id_visit_number" name="visit_number">
+  <option value="" selected="selected">---------</option>
+  <option value="https:/  www.google.com">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+  <option value="4">Four</option>
+</select>
+<script type='text/javascript'>
+
+        $( document ).ready(function() {
+                $("select#id_visit_number option").filter(function() {
+                    return $(this).val() == "2";
+                }).prop('selected', true);
+        });
+        </script>
+  </body>
+</html>
