@@ -1,0 +1,264 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header{
+  background: #222;
+  color: rgb(230, 222, 222);
+  padding: 12px 30px;
+  text-align-last: left;
+}
+
+
+
+/* logo */
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#logo img    {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#logo span   {
+  display: inline-block;
+}
+
+/* main navigation */
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: rgb(231, 223, 223);
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+/* styling our footer */
+footer   {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* styling our main content */
+.hero           {
+  min-height: 800px;
+  text-align: center;
+  background-image: url('../img/sky.jpg');
+  background-size: cover;
+}
+.hero-content   {
+  color: #FFF;
+  padding-top: 50px;
+}
+.hero-content h1   {
+  font-size: 100px;
+  margin: 0;
+  font-family: "Bahnschrift Condensed";
+}
+.hero-content p    {
+  font-family: "Bahnschrift Condensed";
+  text-align: center;
+  font-size:15px;
+}
+.hero-content a    {
+  display: inline-block;
+  width:350px;
+  color: rgb(243, 235, 235);
+  border: 3px solid rgb(255, 252, 252);
+  border-radius: 3px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* basic site sections */
+.site-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.site-section-secondary   {
+  background: #EFEFEF;
+}
+.site-section-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #777;
+}
+
+/* feature boxes */
+.feature-box   {
+  min-height: 800px;
+  width: 100%;
+  display: inline-block;
+  background-image: url('../img/pic.jpg');
+  background-size: cover;
+  font-family:"Bahnschrift Condensed";
+  justify-content: center;
+}
+.feature-box img  {
+  margin-left: 200px;
+  width: 80px;
+}
+.feature-box button  {
+  text-align: center;
+  font-family: "Bahnschrift Condensed";
+  font-size: 20px;
+  margin-left: 700px;
+  width: 100px;
+  color: rgb(11, 12, 10);
+  background-color: rgb(243, 132, 6);
+  border-radius: 10px;
+  height: 50px;
+  margin-top: -180px;
+  border: rgb(3, 2, 2);
+  border-width:inherit;
+}
+
+
+.feature-box input  {
+  font-size: 20px;
+  color: rgb(8, 4, 4);
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 650px;
+  margin-bottom: 80px;
+  margin-top: -70px;
+}
+
+.feature-box h2   {
+  font-size: 50px;
+  color: rgb(19, 15, 15);
+  font-weight: 1000;
+  margin: 100px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom:100px;
+}
+
+
+.feature-box h3   {
+  font-size: 20px;
+  color: rgb(10, 9, 9);
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -80px;
+}
+
+.feature-box table, th, td {
+  margin-top:-30px;
+  border: 1px solid black;
+  margin-left:350px;
+  margin-bottom:50px;
+}
+
+
+.feature-box h4   {
+  font-size: 20px;
+  color: rgb(8, 7, 7);
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.feature-box a    {
+  display: inline-block;
+  color: rgb(8, 6, 6);
+  width: 350px;
+  text-align: center;
+  border: 5px solid rgb(61, 4, 4);
+  border-radius: 10px;
+  padding: 10px 45px;
+  margin-left: 600px;
+  margin-top: -50px;
+  align-content:flex-end;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* testimonial boxes */
+.testimonial-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.testimonial-content   {
+  background: #FFF;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+
+.testimonial-author           {
+
+}
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testimonial-author h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:15px;
+}
+.testimonial-author span {
+  font-size: 14px;
+}
