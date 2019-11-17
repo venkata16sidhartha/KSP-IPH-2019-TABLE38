@@ -1,5 +1,5 @@
 # KSP-IPH-2019-TABLE38
-Team $@g4(Safety Administrative Guiding Application)
+Team $@G4(Safety Administrative Guiding Application)
 
 We had attempted to digitalize the Beat Management System of the Indian Police Force. We achieve this by developing a mobile app for the Beat Constable, which is intended to replace the Beat Books and also to keep a track on whether he does his rounds sincerely. We also have developed a web app for the ASI (supervisor) to keep a track on the attendance of the beat constable. 
 
